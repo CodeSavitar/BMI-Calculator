@@ -1,15 +1,18 @@
 <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+    </head>
     <body>
-        <form action="/" method = "POST">
+        <form action="/" method = "POST" class = "submission-form">
         Name
-        <input type ="text" name = "name"><br>
+        <input type ="text" name = "Name"><br>
         Gender
         <input type ="text" name = "gender"><br>    
         Weight(Kg)
         <input type = "text" name = "weight"><br>
         Height(cm)
         <input type = "text" name = "height"><br>
-        <button type = "submit" value = "submit">Calc</button>
+        <button type = "submit" value = "submit">Calculate</button>
         </form>
         {% if bmi %}
         <p> Hi, {{Name}}. Your BMI is {{bmi}}</p>
