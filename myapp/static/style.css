@@ -1,6 +1,127 @@
-body{
-    color:red;
+html, body{
     max-width:500px;
     margin:2rem auto;
-    padding:2rem;
+    padding:2rem; 
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    color:aliceblue;
+}
+
+.header{
+    margin-left: 100px;
+    color: white;
+    font-family: cursive;
+    font-size:30px;
+    font-weight:600;
+}
+
+.name{
+    
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 65px;
+    padding: 7px;
+    width: 300px;
+}
+.gender{
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 20px;
+    padding: 7px;
+    width: 300px;
+}
+.weight{
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 7px;
+    width: 300px;
+}
+.height{
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 7px;
+    width: 300px;
+}
+
+.submit{
+    background: black;
+    color:blanchedalmond;
+    border-radius: 20px 0 20px 0;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 300px;
+    transition: .3s ease-in;
+}
+
+.submit:hover{
+    background: white;
+    color:black ;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.intro{
+    font-size: 10px;
+    font-weight: bold;
+    color:yellow;   
+}
+
+.good{
+    font-size: 10px;
+    font-weight: bold;
+    color:chartreuse;
+}
+
+.decent{
+    font-size: 10px;
+    font-weight: bold;
+    color:orange;
+}
+
+.bad{
+    font-size: 10px;
+    font-weight: 600;
+    color:red;
 }
