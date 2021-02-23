@@ -1,6 +1,10 @@
 <html>
     <body>
         <form action="/" method = "POST">
+        Name
+        <input type ="text" name = "name"><br>
+        Gender
+        <input type ="text" name = "gender"><br>    
         Weight(Kg)
         <input type = "text" name = "weight"><br>
         Height(cm)
@@ -8,7 +12,16 @@
         <button type = "submit" value = "submit">Calc</button>
         </form>
         {% if bmi %}
-        <p> Your BMI is {{bmi}}</p>
+        <p> Hi, {{Name}}. Your BMI is {{bmi}}</p>
+        {%endif%}
+        {% if bmi < 18.5 %}
+        <p>BMI status = UNDERWEIGHT</p>
+        {% elif bmi >=18.5 and bmi < 24.9 %}
+        <p>BMI status = NORMAL</p>
+        {% elif bmi >=25 and bmi < 29.9 %}
+        <p>BMI status = OVERWEIGHT</p>
+        {% elif bmi >=30 %}
+        <p>BMI status = OBESE</p>
         {%endif%}
     </body>
 </html>
