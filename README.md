@@ -2,6 +2,31 @@
 
 A basic BMI calculator web application using Flask(Python), HTML and CSS.
 
+This web application was developed to calculate the BMI (Body Mass Index) of a person using his/her height (cm) and weight (kg). This uses Flask for web application framework, HTML and CSS for frontend. The following images will explain about the web application :
+
+![](sample_screenshots/0.1.png)
+<br>
+A web page to enter the details of a person. Name, gender, Weight (in kg) and Height (in cm) is asked.
+
+<br>
+<br>
+
+![](sample_screenshots/0.2.png)
+<br>
+Sample input has been given :
+    
+         Name : Chanlder Bing
+         Gender : Male
+         Weight : 75
+         Height : 180
+
+<br>
+<br>
+
+![](sample_screenshots/0.3.png)
+<br>
+The BMI has been calculated successfully!!!
+
 **Set up :**
 
 Go to command prompt.
