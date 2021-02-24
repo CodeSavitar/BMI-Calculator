@@ -32,23 +32,23 @@ The BMI has been calculated successfully!!!
 Go to command prompt.
 In the project directory, you can run:
 
-`'py -3 -m venv venv'`
+`py -3 -m venv venv`
 
 This command is used to install the virtual environment.
 
-`'venv\Scripts\activate'`
+`venv\Scripts\activate`
 
 This command is used to activate the environment (in Windows).
 
-`'. venv/bin/activate'`
+`. venv/bin/activate`
 
 This command is used to activate the environment (in Mac OS).
 
-`'cd myapp'`
+`cd myapp`
 
 Current directory is myapp now.
 
-`'pip install flask'`
+`pip install flask`
 
 This command installs flask.
 
@@ -56,7 +56,7 @@ This command installs flask.
 
 To run the code, in command prompt:
 
-`'flask run'`
+`flask run`
 
 This runs the flask code. After running you will given be a localhost link (for eg. http://127.0.0.1:5000/). Copy paste in your browser and enter.
 If any edit has been done in the code, then:
