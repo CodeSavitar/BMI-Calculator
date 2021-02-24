@@ -23,7 +23,7 @@ Sample input has been given :
 <br>
 <br>
 
-![](sample_screenshots/03.png)
+![](sample_screenshots/04.png)
 <br>
 The BMI has been calculated successfully!!!
 
